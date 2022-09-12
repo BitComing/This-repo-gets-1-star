@@ -28,7 +28,7 @@ const checkStar = async (star)=> {
     });
     const repo_name = rep.data.name;
     const data = {
-        name: `This-Repo-Has-${star}-Stars`,
+        name: `This-repo-gets-${star}-star`,
         description: `My repo has ${star} stars...(这个仓库现在只有${star}颗星星)`,
     };
     // let regu = /This-Repo-Has-\d-Stars/;
